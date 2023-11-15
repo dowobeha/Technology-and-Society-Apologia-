@@ -1,0 +1,44 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+\input{packages}
+
+\input{header/title}
+\input{header/author}
+
+\begin{document}
+\maketitle
+\input{header/abstract}
+
+\section{Introduction}
+\input{intro}
+
+\section{Deontology}
+\input{framework/deontology}
+
+\section{Virtue Ethics}
+\input{framework/virtue}
+
+\section{Communitarianism}
+\input{framework/communitarianism}
+
+
+\section{Utilitarianism}
+\input{framework/utilitarianism}
+
+
+\section{Responsibility Ethics}
+\input{framework/responsibility}
+
+\section{Feminist Ethics}
+\input{framework/feminist}
+
+\section{The Capability Approach}
+\input{framework/capability}
+
+\section{Conclusion}
+\input{conclusion}
+
+\end{document}
